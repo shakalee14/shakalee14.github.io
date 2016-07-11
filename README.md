@@ -2,7 +2,7 @@
 My Personal Portfolio 
 
 Specifications
-1. Every site is published and visible on the web.
+1. Every site is published and visible on the web. <br>
 2. Visitors to each site can read information about the author.
 3. Visitors to each site can see a list of projects (fine to use fake projects as placeholders).
 4. No external CSS libraries or frameworks are used—all CSS is written from scratch.
