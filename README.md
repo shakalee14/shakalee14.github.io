@@ -1,7 +1,7 @@
 # portfolio
 My Personal Portfolio 
 
-Specifications <br>
+Specifications: <br>
 1. Every site is published and visible on the web. <br>
 2. Visitors to each site can read information about the author.<br>
 3. Visitors to each site can see a list of projects (fine to use fake projects as placeholders).<br>
