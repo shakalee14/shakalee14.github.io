@@ -4,6 +4,7 @@ ul {
   padding: 0;
   background-color: grey;
   border: 1px solid #555;
+  font-family: Lobster;
 }
 
 .active {
@@ -23,6 +24,7 @@ li {
   text-align: center;
   border-bottom: 1px solid #555;
   display: inline-block;
+  font-family: Lobster;
 }
 
 section {
@@ -38,6 +40,7 @@ section {
   border-width: 1px;
   border-radius: 5px;
   border-color: #e6e6e6;
+  font-family: Lobster;
 }
 
 .section-title {
@@ -46,9 +49,12 @@ section {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #e6e6e6;
+  font-family: Lobster;
 }
 
 .section-body {
   padding: 10px;
   font-family: Lobster;
 }
+
+
