@@ -10,7 +10,7 @@ Specifications:
 0. [x] No HTML templates are used—all HTML is written from scratch.
 0. [x] All links work correctly (i.e. no broken links).
 0. [x] All images and other external resources load correctly.
-0. [ ] Add a media file (mp3, mp4, avi, etc.)
+0. [x] Add a media file (mp3, mp4, avi, etc.)
 0. [x] Link to sections on a page
 0. [x] Bio about the author including picture
 0. [ ] Links to other internet homes/social media
