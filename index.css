@@ -1,6 +1,27 @@
 .record {
-  width: 300px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  
 }
+
+.mySlides {
+  width: 200px;
+  height: 200px;
+}
+
+html {
+  background: url("https://lh3.googleusercontent.com/UKd0ed7eZCd5POQIBmxd4vnBPPRONZfZ-LD0hzAuqqV2lrlVeUCFqXiBKmnmVvj2rybfvdD8TwnhdZOss2xMEgtsX7V1QeCiV3FFzuWSuYJ9hWuS3aHqPnLckyzmKrXyTClP0uKU4x4IBf7EAng-00FadfVKxH_tRQg9rw-T8djPL40eC8_oaM6gWlZC-NTYWpW6_qCsMycw-C7xo-4kJkQFA7ZLowlnxcXXSVALSyC33w9kaFlaY7ZkVE9sivxIXlRbQc1w_Oi64vyPqXuyTIIJPc8GHwtYZJQAG_U0WcR2NusWcNjsn_PtvkmpvT1A2jQv0YoZTAFvQa2rN1CE1txcSkFS6amV1x7Ko1aGQtnvSPKwU0hN_tEGrSmJC18j8hkzSIM605GQKxGcc1DxgP_wczRQt3ohGeOkyfN4a_mrcS8D37f40a92y3e2Z7bxwg8M1mKyhkq4mRkCWI0KZLrvKytxrSu0L3MAZ763JZQYXDnJt2FdFIHED0O5A_ibMnNpuRXqBwiCoFtOfy-9MQmSsu5DCe9khVEmstILN2ZbU0CcODyXMixaDKb93yE9otm7WPr-3ocTRRYO5b_4eQXrIg3Nwy8=w1580-h1052-no"); 
+  background-opacity: .2;
+  background-position: right 20px top 300px;
+  font-family: Damion;
+  font-size: 35px;
+  color: #00ff00;
+  background-size: cover;
+  background-opacity: .4;
+
+}
+
 
 .record-spinning{
   -webkit-animation-name: spin;
@@ -38,9 +59,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: grey;
-  border: 1px solid #555;
-  font-family: Lobster;
+  font-family: Damion;
+  color: #00ff00;
 }
 
 .active {
@@ -59,8 +79,9 @@ ul {
 li {
   text-align: center;
   border-bottom: 1px solid #555;
-  display: inline-block;
-  font-family: Lobster;
+  display: inline-flex;
+  font-family: Damion;
+  font-size: 35px;
 }
 
 section {
@@ -71,24 +92,25 @@ section {
   display:none;
 }
 
+h1 {
+  font-family: Damion;
+  font-size: 60px;
+
+}
+
 .section {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
-  border-color: #e6e6e6;
-  font-family: Lobster;
+  font-family: Damion;
+  font-size: 25px;
 }
 
 .section-title {
-  background-color: #d9d9d9;
-  padding-left: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #e6e6e6;
-  font-family: Lobster;
+
+  font-family: Damion;
+  font-size: 25px;
 }
 
 .section-body {
   padding: 10px;
-  font-family: Lobster;
+  font-family: Damion;
+  font-size: 25px;
 }
