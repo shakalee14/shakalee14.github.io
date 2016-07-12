@@ -1,3 +1,43 @@
+.spinning {
+  border-radius: 50%;
+  /*General*/
+  transform: rotate(-360deg);
+  /*Firefox*/
+  -moz-transform: rotate(-360deg);
+  /*Microsoft Internet Explorer*/
+  -ms-transform: rotate(-360deg);
+  /*Chrome, Safari*/
+  -webkit-transform: rotate(-360deg);
+  /*Opera*/
+  -o-transform: rotate(-360deg);
+  /*alter opacity*/
+  /*opacity:0.0;
+  filter:alpha(opacity=0);*/
+}
+
+#spin {
+  /*general version*/
+  transition: 2s;
+  /*browser specific versions*/
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+}
+
+.square {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  0%   {left:400px;}
+  50%  {left:400px;}
+  100% {left:0px;}
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,12 +48,12 @@ ul {
 }
 
 .active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .mySlides {
@@ -56,5 +96,3 @@ section {
   padding: 10px;
   font-family: Lobster;
 }
-
-
