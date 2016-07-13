@@ -13,7 +13,7 @@ Specifications:
 0. [x] Add a media file (mp3, mp4, avi, etc.)
 0. [x] Link to sections on a page
 0. [x] Bio about the author including picture
-0. [ ] Links to other internet homes/social media
+0. [x] Links to other internet homes/social media
 0. [x] Future goals (professional, personal, etc.)
 0. [ ] Use a modal and image gallery in a modal
-0. [ ] CSS Animation on links
+0. [x] CSS Animation on links
