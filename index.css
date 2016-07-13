@@ -6,14 +6,21 @@
   
 }
 
+.img-circle:hover {
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
+}
+
 .img-circle {
   border-radius: 50%;
   border: 5px solid white;
 }
 
-.img-circle:hover {
-	z-index: 2;
-	transform: scale (5);
+.face:hover {
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
 }
 
 .record-spinning{
