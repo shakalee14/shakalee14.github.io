@@ -8,6 +8,12 @@
 
 .img-circle {
   border-radius: 50%;
+  border: 5px solid white;
+}
+
+.img-circle:hover {
+	z-index: 2;
+	transform: scale (5);
 }
 
 .record-spinning{
