@@ -20,3 +20,4 @@ record.onmousedown = function(){
 record.onmouseup = function(){
   record.style.animationPlayState = 'running';
 }
+
