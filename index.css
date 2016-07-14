@@ -1,18 +1,20 @@
 /*cursor*/
 
 body {
-    cursor: alias;
+    cursor: url("images/onefinger.png"), auto;
 }
 
 .modal {
 	z-index: 100;
 	display: none;
 	position: fixed;
+	cursor: url("images/onefinger.png"), auto;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background-color: black;
+
 }
 
 .modal-content {
@@ -51,9 +53,13 @@ body {
 
 
 .record {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  /*box-shadow: 3px 3px 3px 3px #000000;*/
+  margin-top: 20px;
+
+
   }
 
 .record-spinning{
