@@ -8,7 +8,7 @@ body {
 	z-index: 100;
 	display: none;
 	position: fixed;
-	cursor: url("images/onefinger.png"), auto;
+	cursor: auto;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -143,6 +143,14 @@ body {
 }
 
 /*content*/ 
+
+p {
+
+	color: white;
+	font-size: 15px;
+	margin-top: 1em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 ul {
   list-style-type: none;
