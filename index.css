@@ -22,12 +22,7 @@
 }
 
 /*images */
-.record {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  
-}
+
 
 .img-circle {
   border-radius: 50%;
@@ -158,6 +153,7 @@ h1 {
   font-size: 100px;
 }
 
+
 .center {
   margin: auto;
   position: center;
@@ -184,6 +180,20 @@ h1 {
 .section:hover{
 	background-image: url('http://www.hpcf.upr.edu/~abel/phl/star_field_visible_eqt.jpg');
 }
+
+.closing {
+  color: yellow;	
+  transition: all 3s;
+  transition-timing: ease-in-out;
+  width: 100px;
+}
+
+.closing:hover{
+	/*background-color: white;*/
+	transform: rotate(1080deg);
+}
+
+/*blur sun on modal*/
 
 @-webkit-keyframes demonstration {
   0% {
@@ -323,4 +333,30 @@ h1 {
 .blob:last-child {
   -webkit-animation: blob-anim-right ease-in-out 0.8s infinite alternate;
           animation: blob-anim-right ease-in-out 0.8s infinite alternate;
+}
+
+
+
+/*.wrap {width:200px; margin:auto;  z-index:1;}
+
+
+.sticker {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position:center;
+  background: url(http://bagtoons.com/images/moon-no-bg.png)  no-repeat; 
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused; 
+}
+
+.sticker:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}*/
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
 }
