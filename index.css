@@ -227,7 +227,7 @@ h1 {
 }
 
 .section:hover {
-  background-image: url(http://www.hpcf.upr.edu/~abel/phl/star_field_visible_eqt.jpg);
+  background-image: url('http://www.hpcf.upr.edu/~abel/phl/star_field_visible_eqt.jpg');
 }
 
 .closing {
@@ -244,7 +244,7 @@ h1 {
 }
 
 
-/*/*/*/**//*blur sun on modal*/
+/*/*/*/**//*blur highlighter on modal*/
 
 @-webkit-keyframes demonstration {
   0% {

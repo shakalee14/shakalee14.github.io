@@ -32,3 +32,9 @@ record.onmousedown = function() {
 record.onmouseup = function() {
   record.style.animationPlayState = 'running';
 }
+
+function play(){
+  var audio = document.getElementById("audio");
+  audio.play();
+}
+
