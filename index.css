@@ -337,6 +337,10 @@ h1 {
   width: 200px;
   height: 200px;
   position: relative;
+  border-radius: 100%;
+  position: relative;
+  bottom: 10em;
+
  /* left: 50%;
   top: 50%;*/
   margin-top: 10px;
