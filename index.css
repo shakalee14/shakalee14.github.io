@@ -1,6 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
 /*cursor*/
 body {
   cursor: url(images/onefinger.png),auto;
+  scroll-behavior: smooth;
+  overflow: scroll;
 }
 
 .modal {
@@ -23,16 +29,28 @@ body {
   outline: 10px dotted red;
 }
 
+/*.headline {
+  -webkit-animation-name: blink;
+}
+
+@keyframes blink {
+	50% {border-color: black;}
+}
+
+table{
+	animation: blink .5s step-end infinite alternate;
+}
+*/
 .headline {
   position: relative;
   font-size: 600px;
   color: #0f0;
-  text-shadow: -2px 0 black,0 2px black,2px 0 black,0 -2px #000;
+  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px #000;
 }
 
 .Emailme {
   color: #0f0;
-  text-shadow: -2px 0 black,0 2px black,2px 0 black,0 -2px #000;
+  text-shadow: -1px 0 black,0 1px black, 1px 0 black,0 -1px #000;
 }
 
 /*images */
@@ -140,6 +158,9 @@ body {
   font-size: 35px;
   color: #0f0;
   background-size: contain;
+
+
+
 /*float: center;*/
 /*  height: 15em;
   width: 15em;*/
@@ -214,7 +235,7 @@ h1 {
   transition: all 2s;
   transition-timing: ease-in-out;
   width: 100px;
-  text-shadow: -2px 0 black,0 2px black,2px 0 black,0 -2px #000;
+  text-shadow: -1px 0 black,0 1px black, 1px 0 black,0 -1px #000;
 }
 
 .closing:hover {
@@ -222,7 +243,9 @@ h1 {
   transform: rotate(1080deg);
 }
 
-/*blur sun on modal*/
+
+/*/*/*/**//*blur sun on modal*/
+
 @-webkit-keyframes demonstration {
   0% {
     -webkit-filter: blur(0) contrast(1);
@@ -291,7 +314,7 @@ h1 {
   }
 }
 
-.blobs {
+.suns {
   position: absolute;
   top: 0;
   left: 0;
@@ -307,98 +330,78 @@ h1 {
   animation: demonstration 10s linear infinite;
 }
 
-.blob {
+.sun {
   background: #F28C38;
   background-color: #.5;
   z-index: 2;
   width: 200px;
   height: 200px;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-  border-radius: 100%;
+  position: relative;
+ /* left: 50%;
+  top: 50%;*/
+  margin-top: 10px;
+  margin-left: center;
+  
   opacity: .5;
 }
 
-@-webkit-keyframes blob-anim-left {
+@-webkit-keyframes sun-anim-left {
   0% {
-    -webkit-transform: translateX(-40px);
-    transform: translateX(-40px);
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
   }
 
   100% {
-    -webkit-transform: translateX(-55px);
-    transform: translateX(-55px);
+    -webkit-transform: translateX(-1500px);
+    transform: translateX(-1500px);
   }
 }
 
-@keyframes blob-anim-left {
+@keyframes sun-anim-left {
   0% {
-    -webkit-transform: translateX(-60px);
-    transform: translateX(-60px);
+    -webkit-transform: translateX(-500px);
+    transform: translateX(-500px);
   }
 
   100% {
-    -webkit-transform: translateX(-55px);
-    transform: translateX(-55px);
+    -webkit-transform: translateX(1550px);
+    transform: translateX(1550px);
   }
 }
 
-.blob:first-child {
-  -webkit-animation: blob-anim-left ease-in-out .8s infinite alternate;
-  animation: blob-anim-left ease-in-out .8s infinite alternate;
+.sun:first-child {
+  -webkit-animation: sun-anim-left ease-in-out 10s infinite alternate;
+  animation: sun-anim-left ease-in-out 10s infinite alternate;
 }
 
-@-webkit-keyframes blob-anim-right {
+@-webkit-keyframes sun-anim-right {
   0% {
-    -webkit-transform: translateX(20px);
-    transform: translateX(20px);
+    -webkit-transform: translateX(1550px);
+    transform: translateX(1550px);
   }
 
   100% {
-    -webkit-transform: translateX(55px);
-    transform: translateX(55px);
+    -webkit-transform: translateX(-500px);
+    transform: translateX(-500px);0
   }
 }
 
-@keyframes blob-anim-right {
+@keyframes sun-anim-right {
   0% {
-    -webkit-transform: translateX(20px);
-    transform: translateX(20px);
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
   }
 
   100% {
-    -webkit-transform: translateX(55px);
-    transform: translateX(55px);
+    -webkit-transform: translateX(-1550px);
+    transform: translateX(-1550px);
   }
 }
 
-.blob:last-child {
-  -webkit-animation: blob-anim-right ease-in-out .8s infinite alternate;
-  animation: blob-anim-right ease-in-out .8s infinite alternate;
+.sun:last-child {
+  -webkit-animation: sun-anim-right ease-in-out 10s infinite alternate;
+  animation: sun-anim-right ease-in-out 10s infinite alternate;
 }/*.wrap {width:200px; margin:auto;  z-index:1;}
+*/*/
 
 
-.sticker {
-  width:100px;
-  height:100px;
-  border-radius: 50%;
-  position:center;
-  background: url(http://bagtoons.com/images/moon-no-bg.png)  no-repeat; 
-  animation: spin 10s linear infinite;
-  /*Set our animation play state to paused initially */
-  
-}
-
-.sticker:hover {
-/* Toggle our animation play state to running when we are hovering over our sticker */
-  animation-play-state: running;
-}
-
-*/
-@keyframes spin {
-  100transform: rotate(1turn);
-}  
-}
