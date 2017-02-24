@@ -20,7 +20,7 @@ var headline = document.querySelector('.headline');
 headline.onclick = function() {
     modal.style.display = 'block';
   }
-  //this is to close the modal for 
+  //this is to close the modal for
 var closebtn = document.querySelector('.modal .closebtn');
 closebtn.onclick = function() {
   modal.style.display = 'none';
@@ -37,4 +37,3 @@ function play(){
   var audio = document.getElementById("audio");
   audio.play();
 }
-
