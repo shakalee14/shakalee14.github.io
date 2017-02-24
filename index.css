@@ -2,73 +2,23 @@ html {
 	scroll-behavior: smooth;
 }
 
-/*cursor*/
 body {
-  cursor: url(images/onefinger.png),auto;
-  scroll-behavior: smooth;
-  overflow: scroll;
+  background-position: center 300px;
+	background-color: #f4f4f4;
+	font-family: 'PT Sans';
+	word-spacing: 2px;
+	letter-spacing: 2px;
+  font-size: 35px;
+  background-size: contain;
+  background-blend-mode: color-dodge;
+  opacity: 2.2;
+	scroll-behavior: smooth;
+	overflow: scroll;
 }
 
-.modal {
-  z-index: 100;
-  display: none;
-  position: fixed;
-  cursor: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #000;
-}
-
-.modal-content {
-  background-color: #fff;
-}
-
-.headline:hover {
-  outline: 10px dotted red;
-}
-
-/*.headline {
-  -webkit-animation-name: blink;
-}
-
-@keyframes blink {
-	50% {border-color: black;}
-}
-
-table{
-	animation: blink .5s step-end infinite alternate;
-}
-*/
 .headline {
   position: relative;
   font-size: 600px;
-  color: #0f0;
-  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px #000;
-}
-
-.Emailme {
-  color: #0f0;
-  text-shadow: -1px 0 black,0 1px black, 1px 0 black,0 -1px #000;
-}
-
-/*images */
-/*.face {
-  border-radius: 50%;
-  border: 5px solid white;
-}*/
-/*.img-circle:hover {
-	-moz-box-shadow: 0px 0px 10000px #ccac00; 
-	-webkit-box-shadow: 0px 0px 10000px #ccac00; 
-	box-shadow: 0px 0px 10000px #ccac00;
-}*/
-.record {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-/*box-shadow: 3px 3px 3px 3px #000000;*/
-  margin-top: 20px;
 }
 
 .record-spinning {
@@ -88,6 +38,11 @@ table{
   animation-duration: 4500ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.record {
+	width: 200px;
+	height: auto;
 }
 
 @-moz-keyframes spin {
@@ -121,7 +76,7 @@ table{
 }
 
 .mySlides {
-  width: 200px;
+  width: 150px;
   height: 200px;
   display: none;
   border-radius: 45%;
@@ -139,57 +94,52 @@ table{
   transform: rotate(90deg);
 }
 
-/*headline modal*/
-/*links*/
+a {
+	text-decoration: none;
+	color:  #2C3539;
+}
+
 a:hover {
-  color: #fff;
+	color:  #2C3539;
+}
+
+a:visited {
+	color:  #2C3539;
+}
+
+.profile-pic {
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
 }
 
 .active {
-  background-color: #4CAF50;
-  color: #fff;
+	background-color: #4CAF50;
+	color: #fff;
 }
 
-/*background image*/
-body {
-  background: url(https://lh3.googleusercontent.com/UKd0ed7eZCd5POQIBmxd4vnBPPRONZfZ-LD0hzAuqqV2lrlVeUCFqXiBKmnmVvj2rybfvdD8TwnhdZOss2xMEgtsX7V1QeCiV3FFzuWSuYJ9hWuS3aHqPnLckyzmKrXyTClP0uKU4x4IBf7EAng-00FadfVKxH_tRQg9rw-T8djPL40eC8_oaM6gWlZC-NTYWpW6_qCsMycw-C7xo-4kJkQFA7ZLowlnxcXXSVALSyC33w9kaFlaY7ZkVE9sivxIXlRbQc1w_Oi64vyPqXuyTIIJPc8GHwtYZJQAG_U0WcR2NusWcNjsn_PtvkmpvT1A2jQv0YoZTAFvQa2rN1CE1txcSkFS6amV1x7Ko1aGQtnvSPKwU0hN_tEGrSmJC18j8hkzSIM605GQKxGcc1DxgP_wczRQt3ohGeOkyfN4a_mrcS8D37f40a92y3e2Z7bxwg8M1mKyhkq4mRkCWI0KZLrvKytxrSu0L3MAZ763JZQYXDnJt2FdFIHED0O5A_ibMnNpuRXqBwiCoFtOfy-9MQmSsu5DCe9khVEmstILN2ZbU0CcODyXMixaDKb93yE9otm7WPr-3ocTRRYO5b_4eQXrIg3Nwy8=w1580-h1052-no);
-  background-position: center 300px;
-  font-family: Damion;
-  font-size: 35px;
-  color: #0f0;
-  background-size: contain;
-
-
-
-/*float: center;*/
-/*  height: 15em;
-  width: 15em;*/
-  background-blend-mode: color-dodge;
-  opacity: 2.2;
-}
-
-/*content*/
 .picture {
   color: #fff;
   font-size: 15px;
   margin-top: 1em;
-  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px #000;
+  text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px  #2C3539;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: Damion;
-  color: #0f0;
-  display: inline;
+  font-family: 'PT Sans';
+  display: flex;
+	justify-content: space-around;
+	text-align: center;
 }
 
 li {
   text-align: center;
-  border-bottom: 1px solid #555;
-  font-family: Damion;
+  font-family: 'PT Sans';
   font-size: 30px;
+	margin: 10px auto;
 }
 
 section {
@@ -200,8 +150,14 @@ section {
 }
 
 h1 {
-  font-family: Damion;
+  font-family:'PT Sans';
   font-size: 100px;
+	color:  #2C3539;
+}
+
+h1, h5 {
+	margin: 0;
+	padding: 10px;
 }
 
 .center {
@@ -211,23 +167,19 @@ h1 {
 }
 
 .section {
-  font-family: Damion;
-  font-size: 25px;
+  font-family: 'PT Sans';
+  font-size: 20px;
 }
 
 .section-title {
-  font-family: Damion;
+  font-family: 'PT Sans';
   font-size: 25px;
 }
 
 .section-body {
   padding: 10px;
-  font-family: Damion;
+  font-family: 'PT Sans';
   font-size: 25px;
-}
-
-.section:hover {
-  background-image: url('http://www.hpcf.upr.edu/~abel/phl/star_field_visible_eqt.jpg');
 }
 
 .closing {
@@ -235,177 +187,9 @@ h1 {
   transition: all 2s;
   transition-timing: ease-in-out;
   width: 100px;
-  text-shadow: -1px 0 black,0 1px black, 1px 0 black,0 -1px #000;
+  text-shadow: -1px 0 black,0 1px black, 1px 0 black,0 -1px  #2C3539;
 }
 
 .closing:hover {
-/*background-color: white;*/
   transform: rotate(1080deg);
 }
-
-
-/*/*/*/**//*blur highlighter on modal*/
-
-@-webkit-keyframes demonstration {
-  0% {
-    -webkit-filter: blur(0) contrast(1);
-    filter: blur(0) contrast(1);
-  }
-
-  25% {
-    -webkit-filter: blur(0) contrast(1);
-    filter: blur(0) contrast(1);
-  }
-
-  30% {
-    -webkit-filter: blur(20px) contrast(1);
-    filter: blur(20px) contrast(1);
-  }
-
-  55% {
-    -webkit-filter: blur(20px) contrast(1);
-    filter: blur(20px) contrast(1);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-
-  80% {
-    -webkit-filter: blur(20px) contrast(30);
-    filter: blur(20px) contrast(30);
-  }
-
-  100% {
-    -webkit-filter: blur(20px) contrast(30);
-    filter: blur(20px) contrast(30);
-  }
-}
-
-@keyframes demonstration {
-  0% {
-    -webkit-filter: blur(0) contrast(1);
-    filter: blur(0) contrast(1);
-  }
-
-  25% {
-    -webkit-filter: blur(0) contrast(1);
-    filter: blur(0) contrast(1);
-  }
-
-  30% {
-    -webkit-filter: blur(20px) contrast(1);
-    filter: blur(20px) contrast(1);
-  }
-
-  55% {
-    -webkit-filter: blur(20px) contrast(1);
-    filter: blur(20px) contrast(1);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-
-  80% {
-    -webkit-filter: blur(20px) contrast(30);
-    filter: blur(20px) contrast(30);
-  }
-
-  100% {
-    -webkit-filter: blur(20px) contrast(30);
-    filter: blur(20px) contrast(30);
-  }
-}
-
-.suns {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: transparent;
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  -webkit-filter: blur(20px) contrast(30);
-  filter: blur(20px) contrast(30);
-  -webkit-animation: demonstration 10s linear infinite;
-  animation: demonstration 10s linear infinite;
-}
-
-.sun {
-  background: #F28C38;
-  background-color: #.5;
-  z-index: 2;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  border-radius: 100%;
-  position: relative;
-  bottom: 10em;
-
- /* left: 50%;
-  top: 50%;*/
-  margin-top: 10px;
-  margin-left: center;
-  
-  opacity: .5;
-}
-
-@-webkit-keyframes sun-anim-left {
-  0% {
-    -webkit-transform: translateX(500px);
-    transform: translateX(500px);
-  }
-
-  100% {
-    -webkit-transform: translateX(-1500px);
-    transform: translateX(-1500px);
-  }
-}
-
-@keyframes sun-anim-left {
-  0% {
-    -webkit-transform: translateX(-500px);
-    transform: translateX(-500px);
-  }
-
-  100% {
-    -webkit-transform: translateX(1550px);
-    transform: translateX(1550px);
-  }
-}
-
-.sun:first-child {
-  -webkit-animation: sun-anim-left ease-in-out 10s infinite alternate;
-  animation: sun-anim-left ease-in-out 10s infinite alternate;
-}
-
-@-webkit-keyframes sun-anim-right {
-  0% {
-    -webkit-transform: translateX(1550px);
-    transform: translateX(1550px);
-  }
-
-  100% {
-    -webkit-transform: translateX(-500px);
-    transform: translateX(-500px);0
-  }
-}
-
-@keyframes sun-anim-right {
-  0% {
-    -webkit-transform: translateX(500px);
-    transform: translateX(500px);
-  }
-
-  100% {
-    -webkit-transform: translateX(-1550px);
-    transform: translateX(-1550px);
-  }
-}
-
-.sun:last-child {
-  -webkit-animation: sun-anim-right ease-in-out 10s infinite alternate;
-  animation: sun-anim-right ease-in-out 10s infinite alternate;
-}/*.wrap {width:200px; margin:auto;  z-index:1;}
-*/*/
-
-
