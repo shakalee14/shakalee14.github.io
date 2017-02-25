@@ -170,8 +170,11 @@ h1, h5 {
 .section-body {
   padding: 10px;
   font-family: 'Lato';
-  font-size: 25px;
+  font-size: 22px;
+	letter-spacing: 4px;
+	word-spacing: 5px;
 }
+
 
 .closing {
   color: #ff0;
